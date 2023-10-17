@@ -1,5 +1,13 @@
 # partysocket
 
+## 0.0.12
+
+### Patch Changes
+
+- [#499](https://github.com/partykit/partykit/pull/499) [`6cc9437`](https://github.com/partykit/partykit/commit/6cc9437ab83b6962cd139d4a9867ac1e1c6647c1) Thanks [@threepointone](https://github.com/threepointone)! - partysocket: add subpath support
+
+  This patch lets you add `path: string` to `new PartySocket({...})` and point to a subpath in a room. This is a client side analog to the recent subpath support we added to multiparty `.fetch()`/`.socket()`
+
 ## 0.0.11
 
 ### Patch Changes
